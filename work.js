@@ -36,7 +36,7 @@ function loadHTMLEditor() {
         showLineNumbers: true,
         vScrollBarAlwaysVisible: false,
         enableBasicAutocompletion: true,
-        enableSnippets: true,
+        enableSnippets: false,
         enableLiveAutocompletion: false
     });
 
@@ -44,7 +44,7 @@ function loadHTMLEditor() {
     //htmlEditor.setBehavioursEnabled(false);
 }
 function loadCSSEditor() {
-    defaultCSSValue = "/*        Your CSS Code Goes Here           */"
+    defaultCSSValue = "/*        write Your CSS here         */"
     //tells ace editor to use editor element , window.editor makes it global in the javascript file
     window.cssEditor = ace.edit("cssEditor");
     cssEditor.resize();
@@ -151,28 +151,4 @@ function minimizeIframe() {
     var iframe = document.getElementById("iframe");
     iframe.style.height = "50%";
     iframe.style.width = "100%";
-}
-
-//Download Code File
-function downloadCode() {
-    //1.Create a blob
-    const userCode = getUserCode();
-    const blob = new Blob([userCode], { type: "text/html" });
-    downloadFile(blob, "index.html");
-}
-//2.function that accepts blob and file name
-function downloadFile(blob, fileName) {
-    //3.create url for blob
-    const url = window.URL.createObjectURL(blob);
-    //4.anchor tag to download
-    const a = document.createElement('a');
-    //Before click we need to add some properties to our anchorTag
-    a.href = url;
-    a.download = fileName;
-    //click event
-    a.click();
-    //remove anchor tag
-    a.remove();
-
-    document.addEventListener("focus", w => { window.URL.revokeObjectURL(url) })
 }
