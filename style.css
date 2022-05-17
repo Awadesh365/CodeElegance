@@ -1,0 +1,104 @@
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 60px;
+    font-style: italic;
+    text-decoration: rgb(255, 183, 0) underline;
+    letter-spacing: 14px;
+}
+html,
+body {
+    color: wheat;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+/* Hides the scrollbar while still able to scroll */
+::-webkit-scrollbar {
+    width: 0px;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+#container {
+    height: 100%;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#iframe {
+    border: 1px solid black;
+    background: rgb(247, 254, 255);
+    height: 50%;
+    /* display:inline-block;  */
+    width: 100%;
+    /* what is inline */
+}
+
+#editors {
+    border: 2px solid black;
+    position: relative;
+    background-color: #21222C;
+    height: 50%;
+    width: 100%;
+    /* what is inline */
+    /* display:inline-block;  */
+}
+
+.editor {
+    border: 1.5px solid black;
+    position: absolute;
+    /* background: blue; */
+    top: 8%;
+    height: 90%;
+    width: 32%;
+}
+
+#htmlEditor {
+    left: 2%;
+}
+
+#cssEditor {
+    left: 34%;
+    /* cursor: col-resize; */
+}
+
+#jsEditor {
+    right: 2%;
+    /* left: 65%; */
+    /* cursor: col-resize; */
+}
+
+#text {
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.button {
+    background-color: DodgerBlue;
+    border: none;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+
+.minButton {
+    position: absolute;
+    left: 0%;
+}
+
+.downloadCode {
+    position: absolute;
+    left: 0%;
+}
+
+.maxButton {
+    position: absolute;
+    right: 0%;
+}
