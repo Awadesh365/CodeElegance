@@ -1,6 +1,6 @@
 ## HTML Tags
 
-There are a total of 15 HTML tags, 14 CSS properties, and 10 JavaScript functions implemented in the project.
+There are a total of 15 HTML tags, 12 CSS properties, and 9 JavaScript functions implemented in the project.
 
 * `<!DOCTYPE html>`
 * `<html>`
