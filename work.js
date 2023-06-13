@@ -1,5 +1,4 @@
 /*
-   Awadesh Nautiyal
     Project- Online code editor
 */ 
 // This function gets the code from the three editors and returns it as a string.
