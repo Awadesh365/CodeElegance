@@ -4,72 +4,84 @@ Now this project is live at- https://splendid-awadesh365-5071ff.netlify.app/
 
 # Project Information
 
-This project uses a total of 25 CSS properties, 19 HTML tags, and 13 JavaScript functions.
+ an online code editor that allows users to write and edit HTML, CSS, and JavaScript code. The code is written in JavaScript and uses the Ace editor library to provide a rich text editor for each of the three languages. The code also uses an iframe to display the output of the code.
 
-## CSS Properties
+The code works as follows:
 
-| Property | Description | Values |
-|---|---|---|
-| color | Sets the color of an element. | Color name, hexadecimal value, or RGB value. |
-| font-size | Sets the font size of an element. | Number, percentage, or keyword. |
-| font-family | Sets the font family of an element. | Font name, comma-separated list of font names, or generic font family name. |
-| background-color | Sets the background color of an element. | Color name, hexadecimal value, or RGB value. |
-| padding | Sets the padding of an element. | Number, percentage, or length. |
-| margin | Sets the margin of an element. | Number, percentage, or length. |
-| border | Sets the border of an element. | Number, percentage, or length. |
-| width | Sets the width of an element. | Number, percentage, or length. |
-| height | Sets the height of an element. | Number, percentage, or length. |
-| display | Sets the display of an element. | block, inline, inline-block, or none. |
-| text-align | Sets the text alignment of an element. | left, center, or right. |
-| text-decoration | Sets the text decoration of an element. | none, underline, overline, or strikethrough. |
-| list-style-type | Sets the list style type of an element. | none, disc, circle, or square. |
-| list-style-position | Sets the list style position of an element. | outside or inside. |
-| list-style-image | Sets the list style image of an element. | URL of an image or an empty string. |
-| float | Floats an element. | left or right. |
-| clear | Clears floats. | left or right. |
+The user enters HTML, CSS, or JavaScript code into the corresponding editor.
+When the user clicks on the "Run" button, the code is passed to the Ace editor library, which compiles and executes the code.
+The output of the code is displayed in the iframe.
+The code editor also includes a number of features that make it easy to write and edit code, such as syntax highlighting, autocompletion, and error checking.
 
-## HTML Tags
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-| Tag | Description |
-|---|---|
-| html | Marks the beginning of the HTML document. |
-| head | Marks the beginning of the head section of the HTML document. |
-| title | Marks the title of the HTML document. |
-| body | Marks the beginning of the body section of the HTML document. |
-| h1 | Marks a heading of level 1. |
-| p | Marks a paragraph. |
-| img | Marks an image. |
-| a | Marks a link. |
-| ul | Marks an unordered list. |
-| li | Marks an item in an unordered list. |
-| ol | Marks an ordered list. |
-| table | Marks a table. |
-| tr | Marks a row in a table. |
-| td | Marks a cell in a table. |
-| form | Marks a form. |
-| input | Marks an input field. |
-| button | Marks a button. |
-| textarea | Marks a text area. |
-| select | Marks a select box. |
+## Available Scripts
 
-## JavaScript Functions
+In the project directory, you can run:
 
-| Function | Description |
-|---|---|
-| alert() | Displays an alert box. |
-| confirm() | Displays a confirmation box. |
-| prompt() | Displays a prompt box. |
-| window.location.href | Gets or sets the current URL of the page. |
-| document.getElementById() | Gets an element by its ID. |
-| document.getElementsByClassName() | Gets all elements by their class name. |
-| document.querySelector() | Gets the first element that matches a selector. |
-| document.querySelectorAll() | Gets all elements that match a selector. |
-| window.addEventListener() | Adds an event listener to an element. |
-| window.removeEventListener() | Removes an event listener from an element. |
-| window.setTimeout() | Executes a function after a specified amount of time. |
-| window.clearTimeout() | Cancels a timeout. |
-| window.setInterval() | Executes a function repeatedly after a specified amount of time. |
-| window.clearInterval() | Cancels an interval. |
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
 
 ## Conclusion
 
