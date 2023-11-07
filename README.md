@@ -1,4 +1,4 @@
-# Online_code_editor_js
+# Online_code_editor
 
 Now this project is live at- https://code-editor-upgrade.vercel.app/
 
