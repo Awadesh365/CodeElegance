@@ -2,7 +2,6 @@
 
 Now this project is live at- https://code-editor-upgrade.vercel.app/
 
-
 # Project Information
 
  an online code editor that allows users to write and edit HTML, CSS, and JavaScript code. The code is written in JavaScript and uses the Ace editor library to provide a rich text editor for each of the three languages. The code also uses an iframe to display the output of the code.
