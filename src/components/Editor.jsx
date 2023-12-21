@@ -33,7 +33,6 @@ const Heading = styled(Box)`
     padding: 9px 12px;
     display: flex
 `
-
 const Editor = ({ heading, language, value, onChange, icon, color }) => {
 
     const [open, setOpen] = useState(true);
