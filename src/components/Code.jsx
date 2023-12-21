@@ -12,7 +12,6 @@ const Container = styled(Box)`
     height: 50vh;
     display: flex;
 `
-
 const Code = () => {
 
     const { html, css, js, setHtml, setCss, setJs } = useContext(DataContext);
