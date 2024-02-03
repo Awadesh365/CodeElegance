@@ -1,4 +1,4 @@
-# Online_code_editor : React,JavaScript
+# Online code editor: React,JavaScript
 
 Now this project is live at- https://code-editor-upgrade.vercel.app/
 
