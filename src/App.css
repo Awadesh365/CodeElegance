@@ -1,12 +1,19 @@
+/* CSS rules for the CodeMirror editor */
+
+/* Set the height of the editor to 340 pixels and make it override other styles */
 .CodeMirror {
   height: 340px !important;
+
+  /* Set the text color to white */
   color: #fff;
 }
 
+/* Set the background color of the gutter (the sidebar that shows line numbers) to a dark grey and make it override other styles */
 .CodeMirror-gutters {
   background: #1d1e22 !important;
 }
 
+/* Set the background color of the editor to a dark grey */
 .CodeMirror-scroll {
   background: #1d1e22;
 }
