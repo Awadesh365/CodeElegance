@@ -1,3 +1,11 @@
+/*
+  body { ... } - Styles for the body element.
+
+  Set the margin to 0 to remove any default spacing.
+  Set the font family to a comprehensive list of system and web-safe fonts.
+  Use antialiased for webkit-font-smoothing to improve text rendering.
+  Use grayscale for moz-osx-font-smoothing to improve text rendering on macOS.
+*/
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,6 +15,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*
+  code { ... } - Styles for the code element.
+
+  Set the font family to a comprehensive list of programming font families.
+  Use monospace as the fallback font family.
+*/
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

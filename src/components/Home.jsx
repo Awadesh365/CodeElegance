@@ -1,18 +1,25 @@
+// Home.jsx - This component renders the main Home page.
 
+// Importing required components
+import Code from "./Code"; // Code component for rendering code editor
+import Result from "./Result"; // Result component for rendering output
+import Header from "./Header"; // Header component for rendering page header
 
-//components
-import Code from './Code';
-import Result from './Result';
-import Header from './Header';
-
+// Home component renders the main Home page. It renders the Header, Code, and Result components.
 const Home = () => {
-    return (
-        <>
-            <Header />
-            <Code />
-            <Result />
-        </>
-    )
-}
+  return (
+    <>
+      {/* Rendering the Header component */}
+      <Header />
 
+      {/* Rendering the Code component */}
+      <Code />
+
+      {/* Rendering the Result component */}
+      <Result />
+    </>
+  );
+};
+
+// Exporting the Home component as the default export
 export default Home;
