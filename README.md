@@ -1,16 +1,50 @@
-# ONLINE-CODE EDITOR
+# Online Code Editor
 
-Online-Code Editor is a groundbreaking platform designed to revolutionize coding experiences for beginners and seasoned developers alike. **Our mission is to remove barriers to entry and provide a seamless coding environment accessible from anywhere, at any time**.
-With Online-Code Editor, we're not just offering a tool; **we're providing a solution to the challenges faced by aspiring coders who may find setup processes daunting or lack the resources to begin their coding journey.**
+Welcome to the Online Code Editor project! **Our mission is to remove barriers to entry and provide a seamless coding environment accessible from anywhere, at any time. With Online Code Editor, we're not just offering a tool; we're providing a solution to the challenges faced by aspiring coders who may find setup processes daunting or lack the resources to begin their coding journey.**
 
 ## Features
 
-- **Technology Stack**: Crafted with ReactJs, JavaScript, CSS, and HTML, leveraging industry-standard technologies to ensure reliability and performance.
-- **No Setup Required**: We've eliminated the complexity of setup procedures. With Online-Code Editor, coding becomes as simple as opening a web browser.
-- **Versatile Markup and Styling Support**: Effortlessly create and style web content using HTML and CSS, enabling users to design stunning websites and web applications.
-- **Interactive JavaScript Development**: Dive into dynamic and interactive web development with JavaScript support, bringing functionality and interactivity to your projects.
-- **Live Preview Feature**: Experience the power of real-time code visualization with our live preview feature, empowering users to iterate and refine their creations seamlessly.
-- **Simplified User Interface**: Our intuitive interface, complete with expandable/collapsible code windows, fosters focus and productivity, aligning with industry best practices for user experience design.
+### Current Features
+- Support for basic functionalities (HTML, css JS).
+
+### Planned Features
+1. **Real-Time Collaboration:** Implement real-time collaboration features, allowing multiple users to work on the same codebase simultaneously.
+   
+2. **Advanced Code Completions:** Integrate intelligent code completions and suggestions to enhance the coding experience.
+   
+3. **Version Control Integration:** Integrate with Git version control for seamless code management and collaboration.
+   
+4. **AI-Powered Code Assistance:** Implement AI-powered features such as code generation, error detection, and refactoring suggestions.
+   
+5. **Enhanced Language Support:** Expand support for additional programming languages and frameworks to cater to diverse developer needs.
+   
+6. **Interactive Drawing Boards:** Integrate interactive drawing boards for visual collaboration and brainstorming sessions.
+
+7. **WebRTC Integration:** Enable real-time video and audio communication for pair programming and collaborative coding sessions.
+
+8. **Code Editor Customization:** Allow users to customize their code editor experience by adjusting themes, fonts, and layout options.
+   
+9. **Enhanced Collaboration:** Implement features to enhance collaboration, such as chat functionality, collaborative code reviews, and task assignment.
+   
+10. **Performance Optimization:** Optimize performance to ensure smooth and efficient code editing, even with large projects and complex codebases.
+
+## Get Involved
+
+We welcome contributions from developers and enthusiasts who share our vision of making coding accessible to everyone. Whether you're interested in fixing bugs, implementing new features, or providing feedback, there are many ways to get involved:
+
+- **Contribute**
+   
+- **Submit Feedback:** Have an idea for a feature or encountered a bug? [Submit an issue](https://github.com/Awadesh365/Online_code_editor/issues) on GitHub to let us know!
+   
+- **Spread the Word:** Help us grow our community by sharing Online Code Editor with your friends, colleagues, and social networks.
+
+Thank you for your interest in Online Code Editor. Together, we can empower developers and learners everywhere with accessible and innovative coding tools.
+
+
+
+
+
+
 
 ## Installation
 
@@ -19,7 +53,7 @@ To deploy Online-Code Editor locally, follow these steps:
 1. **Clone the Repository**:
 
 ```bash
-git clone https://github.com/your-username/online-code-editor.git
+git clone git@github.com:Awadesh365/Online_code_editor.git
 ```
 
 2. **Install Dependencies**:
