@@ -1,6 +1,6 @@
-# Online Code Editor
+# CodeElegance
 
-Welcome to the Online Code Editor project! **Our mission is to remove barriers to entry and provide a seamless coding environment accessible from anywhere, at any time. With Online Code Editor, we're not just offering a tool; we're providing a solution to the challenges faced by aspiring coders who may find setup processes daunting or lack the resources to begin their coding journey.**
+Welcome to the CodeElegance project! **Our mission is to remove barriers to entry and provide a seamless coding environment accessible from anywhere, at any time. With CodeElegance, we're not just offering a tool; we're providing a solution to the challenges faced by aspiring coders who may find setup processes daunting or lack the resources to begin their coding journey.**
 
 ## Features
 
@@ -36,9 +36,9 @@ We welcome contributions from developers and enthusiasts who share our vision of
    
 - **Submit Feedback:** Have an idea for a feature or encountered a bug? [Submit an issue](https://github.com/Awadesh365/Online_code_editor/issues) on GitHub to let us know!
    
-- **Spread the Word:** Help us grow our community by sharing Online Code Editor with your friends, colleagues, and social networks.
+- **Spread the Word:** Help us grow our community by sharing CodeElegance with your friends, colleagues, and social networks.
 
-Thank you for your interest in Online Code Editor. Together, we can empower developers and learners everywhere with accessible and innovative coding tools.
+Thank you for your interest in CodeElegance. Together, we can empower developers and learners everywhere with accessible and innovative coding tools.
 
 
 
